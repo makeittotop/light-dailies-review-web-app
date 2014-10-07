@@ -2,9 +2,10 @@
 use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;
 
-     var_dump(__DIR__);
-    // Make sure composer dependencies have been installed
-    require __DIR__ . '/../vendor/autoload.php';
+var_dump(__DIR__);
+// Make sure composer dependencies have been installed
+require __DIR__ . '/../vendor/autoload.php';
+include 'xmpp_sendmessage.php';
 
 /**
  * chat.php
