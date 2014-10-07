@@ -11,6 +11,9 @@
     if(!isset($_SESSION['username'])) {
     	header('Location: http://172.16.15.26/signin.html');
     }
+    else {
+    	setcookie("user", $_SESSION['username']);
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,6 +31,25 @@
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
         background-color: #f5f5f5;
       }
+
+      	.footer {
+			  position: absolute;
+			  bottom: 0;
+			  width: 100%;
+			  /* Set the fixed height of the footer here */
+			  height: 25px;
+			  background-color: #000000;
+		          color: #999999;
+		          text-align: center;
+        }
+
+		.center {
+	    	margin-top: 5px;
+	 	}
+
+		.highlighted {
+		    background-color: rgb(196, 196, 196);
+		} 	
     </style>
     <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -43,10 +65,12 @@
     <link rel="apple-touch-icon-precomposed" href="./bootstrap/ico/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="./bootstrap/ico/favicon.png">
     <script src="http://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
   </head>
 
   <body>
+
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -56,12 +80,19 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">Barajoun Studio</a>
+          <a class="brand" href="#">Bilal</a>
           <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="./home.html">Home</a></li>
+            <ul class="nav nav-pills pull-right">
+              <li class="active"><a href="./home.php">Home</a></li>
               <li><a href="./about.html">About</a></li>
               <li><a href="./contact.html">Contact</a></li>
+    <li class="dropdown pull-right">
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Settings<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li><a href="php/logout.php">Logout</a></li>
+            <li><a href="#">Another action</a></li>
+        </ul>
+    </li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -71,7 +102,7 @@
     <div class="container">
 
       <h1>Lighting Dailies Review System</h1>
-      <p>This is to help facilitate lighting dailies for Bilal.<br>The list of dailies to be reviewed today will appear beolw.</p>
+      <p>This is to help facilitate lighting dailies for Bilal.<br>The list of dailies to be reviewed today will appear below.</p>
 
       <div>
             <table class="table">
@@ -109,7 +140,7 @@
                   <td>Call in to confirm</td>
                 </tr>
                 <tr class="info">
-                  <td>4</td>
+                  <td>5</td>
                   <td>TB - Monthly</td>
                   <td>04/04/2012</td>
                   <td>Call in to confirm</td>
@@ -238,6 +269,13 @@
             </table>
       </div>
     </div> <!-- /container -->
+
+    <div class="footer">
+      <div class="center">
+        <p>&copy; Barajoun Studio 2014.
+      </div>
+    </div>
+
   </body>
 </html>
 

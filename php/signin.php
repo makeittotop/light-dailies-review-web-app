@@ -34,7 +34,8 @@
 			    session_start();
 			    $_SESSION['username'] = $server_user;
 			    $_SESSION['password'] = $server_pass;
-
+                // Set cookie with the username
+                setcookie("user", $server_user);
 			    //$ret = array('status' => 'Valid password');
 			    $ret = array('status' => 1, 'session' => 1);			    
 			} else {

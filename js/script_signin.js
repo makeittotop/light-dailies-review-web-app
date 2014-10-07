@@ -22,6 +22,7 @@ $(document).ready(function() {
       posting.done(function(data) {
         //console.log(data);
         d = JSON.parse(data);
+
         if(d.status == 0) {
             $("#signin-button").after(sprintf(alert_message, "User not found."));
         }
@@ -35,15 +36,15 @@ $(document).ready(function() {
     });
 
     $("#signin-button").click(function(event) {
-        //var username = $("#username").val();
-        //var password = $("#password").val();
+        var username = $("#username").val();
+        var password = $("#password").val();
         if(!username || !password) {
 	    $(this).after(sprintf(alert_message, "Fill in the incomplete fields first"));
             event.preventDefault();
         }
         else {
-            console.log("Username: " + username);
-            console.log("Password: " + password); 
+            //console.log("Username: " + username);
+            //console.log("Password: " + password); 
         }
    });
 });
