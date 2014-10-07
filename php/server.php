@@ -10,7 +10,7 @@ use Ratchet\ConnectionInterface;
  * chat.php
  * Send any incoming messages to all connected clients (except sender)
  */
-class MyChat implements MessageComponentInterface {
+class MyServer implements MessageComponentInterface {
     protected $clients;
 
     public function __construct() {
@@ -22,9 +22,8 @@ class MyChat implements MessageComponentInterface {
     }
 
     public function onMessage(ConnectionInterface $from, $msg) {
-        var_dump("foo");
         $msg_object = json_decode($msg);
-        var_dump($msg);
+        var_dump($msg_object->user);
 
         foreach ($this->clients as $client) {
             if (($from != $client) && ($msg_object->user == "admin")) {
@@ -44,8 +43,7 @@ class MyChat implements MessageComponentInterface {
 
     // Run the server application through the WebSocket protocol on port 8080
     $app = new Ratchet\App("172.16.15.26", 8080, '0.0.0.0');
-    $app->route('/chat', new MyChat);
-    //$app->route('/echo', new Ratchet\Server\EchoServer, array('*'));
+    $app->route('/server', new MyServer);
     $app->run();
 
 ?>

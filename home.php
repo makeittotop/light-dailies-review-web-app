@@ -27,10 +27,10 @@
     <!-- Le styles -->
     <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
     <style>
-      body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-        background-color: #f5f5f5;
-      }
+	    body {
+	        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+	        background-color: #f5f5f5;
+	    }
 
       	.footer {
 			  position: absolute;
@@ -47,9 +47,13 @@
 	    	margin-top: 5px;
 	 	}
 
-		.highlighted {
+		.highlighted-local {
 		    background-color: rgb(196, 196, 196);
-		} 	
+		}
+
+		.highlighted {
+		    background-color: rgb(240, 247, 173);
+		}		 	
     </style>
     <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
