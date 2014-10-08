@@ -113,159 +113,159 @@
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>Product</th>
-                  <th>Payment Taken</th>
+                  <th>User</th>
+                  <th>Shot Id</th>
                   <th>Status</th>
                 </tr>
               </thead>
               <tbody>
                 <tr class="success">
                   <td>1</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>01/04/2012</td>
                   <td>Approved</td>
                 </tr>
                 <tr class="error">
                   <td>2</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>02/04/2012</td>
                   <td>Declined</td>
                 </tr>
                 <tr class="warning">
                   <td>3</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>03/04/2012</td>
                   <td>Pending</td>
                 </tr>
                 <tr class="info">
                   <td>4</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>04/04/2012</td>
                   <td>Call in to confirm</td>
                 </tr>
                 <tr class="info">
                   <td>5</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>04/04/2012</td>
                   <td>Call in to confirm</td>
                 </tr>
                 <tr class="success">
                   <td>1</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>01/04/2012</td>
                   <td>Approved</td>
                 </tr>
                 <tr class="error">
                   <td>2</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>02/04/2012</td>
                   <td>Declined</td>
                 </tr>
                 <tr class="warning">
                   <td>3</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>03/04/2012</td>
                   <td>Pending</td>
                 </tr>
                 <tr class="info">
                   <td>4</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>04/04/2012</td>
                   <td>Call in to confirm</td>
                 </tr>
                 <tr class="info">
                   <td>4</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>04/04/2012</td>
                   <td>Call in to confirm</td>
                 </tr>
                 <tr class="success">
                   <td>1</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>01/04/2012</td>
                   <td>Approved</td>
                 </tr>
                 <tr class="error">
                   <td>2</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>02/04/2012</td>
                   <td>Declined</td>
                 </tr>
                 <tr class="warning">
                   <td>3</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>03/04/2012</td>
                   <td>Pending</td>
                 </tr>
                 <tr class="info">
                   <td>4</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>04/04/2012</td>
                   <td>Call in to confirm</td>
                 </tr>
                 <tr class="info">
                   <td>4</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>04/04/2012</td>
                   <td>Call in to confirm</td>
                 </tr>
                 <tr class="success">
                   <td>1</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>01/04/2012</td>
                   <td>Approved</td>
                 </tr>
                 <tr class="error">
                   <td>2</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>02/04/2012</td>
                   <td>Declined</td>
                 </tr>
                 <tr class="warning">
                   <td>3</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>03/04/2012</td>
                   <td>Pending</td>
                 </tr>
                 <tr class="info">
                   <td>4</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>04/04/2012</td>
                   <td>Call in to confirm</td>
                 </tr>
                 <tr class="info">
                   <td>4</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>04/04/2012</td>
                   <td>Call in to confirm</td>
                 </tr>
                 <tr class="success">
                   <td>1</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>01/04/2012</td>
                   <td>Approved</td>
                 </tr>
                 <tr class="error">
                   <td>2</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>02/04/2012</td>
                   <td>Declined</td>
                 </tr>
                 <tr class="warning">
                   <td>3</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>03/04/2012</td>
                   <td>Pending</td>
                 </tr>
                 <tr class="info">
                   <td>4</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>04/04/2012</td>
                   <td>Call in to confirm</td>
                 </tr>
                 <tr class="info">
                   <td>4</td>
-                  <td>TB - Monthly</td>
+                  <td></td>
                   <td>04/04/2012</td>
                   <td>Call in to confirm</td>
                 </tr>
